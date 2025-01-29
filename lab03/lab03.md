@@ -1,18 +1,33 @@
 # Prompt Engineering Process
 
 ## Step 1
+
 ### Intention
->What is the improvement that you intend to make?
+
+> What is the improvement that you intend to make?
+
+- I want the model to be able to give me DND advice since I have never played it before
 
 ### Action/Change
->Why do you think this action/change will improve the agent?
+
+> Why do you think this action/change will improve the agent?
+
+- What I have done is change the system role and tweaked the temperature.
+- The system role now says that you are a dungeon master
 
 ### Result
->What was the result?
 
-### Reflection/Analysis of the result. 
->Why do you think it did or did not work?
+> What was the result?
 
+- The result of this is that the agent will now respond more in character and percisely with DND questions
+- It was able to tell me what this game was in great detail
+
+### Reflection/Analysis of the result.
+
+> Why do you think it did or did not work?
+
+- I think that changing the system role is going to be the biggest part in this.
+- Doing so I think acts as a 'prompt' for the agent.
 
 # Prompt Engineering Process
 
