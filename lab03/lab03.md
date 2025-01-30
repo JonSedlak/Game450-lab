@@ -45,3 +45,11 @@
 ### GitHub Account got hacked and deleted
 
 **I had this project locally saved on my machine so I copied the files over and pasted them into a fresh git clone of the project from profremote**
+
+## Ollama install:
+
+- pip install ollama
+- pip install llama
+- llama pull ollama 3.2
+
+- ollama run llama3.2
