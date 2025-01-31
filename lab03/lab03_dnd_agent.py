@@ -18,6 +18,7 @@ options |= {'seed': seed(sign_your_name)}
 
 # Chat loop
 while True:
+  # Send message to Chat Model and store assistant response in Response
   response = chat(model=model, messages=messages, stream=False, options=options)
   # Add your code below
   #-----------------------------------------------------------

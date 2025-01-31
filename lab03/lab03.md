@@ -46,6 +46,10 @@
 
 **I had this project locally saved on my machine so I copied the files over and pasted them into a fresh git clone of the project from profremote**
 
+9. Got my computer working with a new gitHub. Ollama3.2 is correctly installed on my local machine finally after so many failed attempts!!
+10. I understand what the roles are and how response = chat(...) sends the message to the ollama3.2 and stores the response from the message in response. Then appending the message stores it as a 'memory' for the assistant to remember. 
+
+
 ## Ollama install:
 
 - pip install ollama
