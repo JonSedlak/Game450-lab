@@ -401,3 +401,23 @@ User: /exit
 ------------------------END OF ATTEMPT------------------------
 
 
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 100, 'seed': 12441458}
+System: You are a DND Master
+
+
+Assistant: 
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
