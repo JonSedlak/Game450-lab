@@ -20,8 +20,17 @@ def run_console_chat(sign, **kwargs):
                 print('Ending match:', ending_match)
             break
 
-lab04_params = {}
+lab04_params = {
+    'template_file': 'trader_template_file',
+    'sign': 'Jonathan',
+}
 
 if __name__ ==  '__main__':
-    # run lab04.py to test your template interactively
-    pass
+    #  run lab04.py to test your template
+    trader_template_file = 'lab04/demo_template.json'
+    run_console_chat(template_file=trader_template_file,
+                     recruit_difficulty='not easy',
+                     reward='a sword',
+                     sign='Jonathan',
+                     end_regex=r'RECRUIT(.*)DONE')
+    #pass
