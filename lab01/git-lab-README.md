@@ -45,3 +45,7 @@ Git is a distributed version control system that allows you to keep track of you
 
 - git fetch profremote
 - git merge profremote/main
+
+## Pytest
+ctrl + shift + p --> pytest -->pytest
+pip install jsondiff
