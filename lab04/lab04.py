@@ -21,17 +21,18 @@ def run_console_chat(sign, **kwargs):
             break
 
 lab04_params = {
-    "template_file": "trader_template_file",
+    "template_file": "lab04/lab04_trader_chat.json",
+    "inventory": ["mana potion", "health potion"],
     "sign": "Jonathan",
-    "end_regex": r"RECRUIT(.*)DONE",
+    "end_regex": r"ORDER(.*)DONE"
 }
 
-if __name__ ==  '__main__':
-    #  run lab04.py to test your template
-    trader_template_file = 'lab04/demo_template.json'
-    run_console_chat(template_file=trader_template_file,
-                     recruit_difficulty='easy',
-                     reward='a sword',
-                     sign='Jonathan',
-                     end_regex=r'RECRUIT(.*)DONE')
-    #pass
+if __name__ == "__main__":
+    # Run lab04.py to test your template interactively
+    trader_template_file = "lab04/lab04_trader_chat.json"
+    run_console_chat(
+        template_file=trader_template_file,
+        inventory=["mana potion", "health potion"],
+        sign="Jonathan",
+        end_regex=r"ORDER(.*)DONE"
+    )
