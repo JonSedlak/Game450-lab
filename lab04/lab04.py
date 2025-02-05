@@ -36,5 +36,3 @@ if __name__ == "__main__":
         sign="Jonathan",
         end_regex=r"ORDER(.*)DONE"
     )
-
-
